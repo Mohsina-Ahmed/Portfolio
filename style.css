@@ -268,6 +268,7 @@ html {
 }
 .project-img {
   width: 40rem;
+  height: 300px;
   transition: opacity 0.3s;
 }
 .project:hover .project-img {
