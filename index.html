@@ -196,9 +196,16 @@
       <!-- Section-4 -->
       <section class="section-4" id="section-4">
         <h1 class="section-heading section-4-heading">Contact Me</h1>
-        <form class="contact-form center" action="">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
+        <!-- <form class="contact-form center" action="contact.php"> -->
+        <form
+          class="contact-form center"
+          name="frmContact"
+          id="frmContact"
+          method="POST"
+          action="https://formsubmit.co/23e418e56375cdf767b5648a5ad45ced"
+        >
+          <input type="text" id="name" placeholder="Name" />
+          <input type="email" id="email" placeholder="Email" />
           <textarea
             name="message"
             id="message"
