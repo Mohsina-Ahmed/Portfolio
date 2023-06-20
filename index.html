@@ -18,7 +18,7 @@
   <body>
     <div class="container">
       <!-- section 1 -->
-      <section class="section-1 center">
+      <section class="section-1 center" id="section-1">
         <h1 class="section-1-heading">Web Developer</h1>
         <img src="images/Mohsina-Ahmed.jpg" alt="Mohsina" class="person-img" />
         <h3 class="person-name">Mohsina Ahmed</h3>
@@ -165,14 +165,13 @@
                 <h2 class="project-name">Amazon Tracker</h2>
                 <h4 class="project-technologies">Python</h4>
               </div>
-              <img src="images/beautifulSoup.png" class="project-img" />
-              <a
-                href="https://github.com/Mohsina-Ahmed/Amazon-tracker.git"
-                class="project-link"
-                target="_blank"
-                >Go to code</a
-              >
             </div>
+            <iframe
+              src="https://replit.com/@MohsinaAhmed/Amazon-Tracker-2?embed=true"
+              frameborder="10"
+              height="300px"
+              width="400px"
+            ></iframe>
           </div>
           <div class="projects-wrapper">
             <div class="project">
@@ -201,9 +200,16 @@
           class="contact-form center"
           name="frmContact"
           id="frmContact"
-          method="POST"
           action="https://formsubmit.co/23e418e56375cdf767b5648a5ad45ced"
+          method="POST"
         >
+          <!-- <form
+          class="contact-form center"
+          name="frmContact"
+          id="frmContact"
+          action="contact.py"
+          method="POST"
+        > -->
           <input type="text" id="name" placeholder="Name" />
           <input type="email" id="email" placeholder="Email" />
           <textarea
