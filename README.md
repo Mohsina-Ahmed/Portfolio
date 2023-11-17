@@ -69,7 +69,7 @@ In my first job as an ICT officer and course co-ordinator in a private medical c
 
 ## Education
 
-#### Makers Academy (July to Nov 2023)
+#### Makers Academy (July to Oct 2023)
 
 - Through this program, I have learned to apply, and explain the purpose of, four key engineering practices: test-driven development, program design, debugging, and pair programming.
 - My proficiency in TDD is underscored by my adept use of 'pytest' for Python applications and the design of comprehensive README.md files for various programs. Moreover, I have embraced debugging strategies and adopted agile methodologies like the Navigator and Driver approach for pair programming, fostering an ethos of systematic design within larger systems. All these makes software development a very mythological approach.
